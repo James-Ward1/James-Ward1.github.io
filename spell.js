@@ -1,4 +1,4 @@
- <script>
+
    function heavyLoop() {
      let x = 0;
      for (let i = 0; i < 5e7; i++) x = (x + i) | 0;
@@ -16,4 +16,3 @@
        "First cast: " + (t2 - t1).toFixed(1) + " ms\n" +
        "Second cast: " + (t3 - t2).toFixed(1) + " ms";
    }
- </script>
